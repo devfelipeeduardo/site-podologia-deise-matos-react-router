@@ -1,0 +1,54 @@
+/* - Colors - */
+
+.brand-green-light {
+    background-color: var(--brand-green-light);
+}
+
+.brand-green-light-02 {
+    background-color: var(--brand-green-light);
+}
+
+.brand-beige {
+    background-color: var(--brand-beige);
+}
+
+.brand-white {
+    background-color: var(--white);
+}
+
+/* - Sections - */
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    height: 90vh;
+    width: 100%;
+}
+
+.hero-content {
+    height: 90vh;
+    width: 80%;
+    background-color: white;
+}
+
+.hero-content h2 {
+    color: var(--brand-green);
+}
+
+.hero-content h1 {
+    font-size: 5rem;
+    color: var(--grey-head-line);
+}
+
+.hero-content p {
+    font-size: 2rem;
+    color: var(--grey-paragraph);
+}
+
