@@ -1,0 +1,25 @@
+/* Nav */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70px;
+}
+
+nav .link {
+  color: var(--brand-green);;
+  width: 110px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  transition: all 500ms ease;
+}
+
+nav .link:hover {
+  font-weight: 800;
+  cursor: pointer;
+}

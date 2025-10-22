@@ -1,0 +1,33 @@
+.schedule-button {
+    width: 200px;
+    height: 40px;
+    margin-right: 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.brand-green {
+    border: 1px solid var(--brand-green);
+    background-color: transparent;
+    color: var(--brand-green);
+}
+
+.brand-green:hover {
+    border: 1px solid white;
+    background-color: var(--brand-green);
+    color: white;
+}
+
+.brand-green-light-02:hover {
+    border: 1px solid var(--brand-green);
+    background-color: white;
+    color: var(--brand-green);
+}
+
+.brand-green-light-02{
+    border: 0px solid white;
+    background-color: var(--brand-green);
+    color: white;
+}
