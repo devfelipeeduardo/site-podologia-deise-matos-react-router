@@ -1,8 +1,8 @@
 import styles from "./ScheduleButton.module.css"
 
-function ScheduleButton({ color }) {
+function ScheduleButton({ color, dimension }) {
   return (
-    <button className={`${styles['schedule-button']} ${styles[color]}`}>AGENDAR CONSULTA</button>
+    <button className={`${styles['schedule-button']} ${styles[color]} ${styles[dimension]}`}>AGENDAR CONSULTA</button>
   )
 }
 

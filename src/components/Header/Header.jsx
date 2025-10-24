@@ -44,7 +44,7 @@ function Header() {
                 <img className={styles['logo']} src={`${isSuspense ? logoWhite : logoGreen}`} alt="Logo Deise" />
             </Link>
             <Nav isSuspense={isSuspense} />
-            <ScheduleButton color={scheduleBtnColor} />
+            <ScheduleButton color={scheduleBtnColor} dimension={"small"}/>
         </header>
     )
 }

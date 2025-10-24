@@ -1,11 +1,19 @@
 .schedule-button {
-    width: 200px;
-    height: 40px;
     margin-right: 50px;
     border-radius: 50px;
     font-weight: 600;
     cursor: pointer;
     transition: all .2s ease;
+}
+
+.small {
+    width: 200px;
+    height: 40px;
+}
+
+.big {
+    width: 260px;
+    height: 50px;
 }
 
 .brand-green {

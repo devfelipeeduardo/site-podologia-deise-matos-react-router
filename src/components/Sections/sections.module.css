@@ -5,7 +5,7 @@
 }
 
 .brand-green-light-02 {
-    background-color: var(--brand-green-light);
+    background-color: var(--brand-green-light-02);
 }
 
 .brand-beige {
@@ -27,7 +27,7 @@ section {
 .hero-section {
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    padding-top: 10vh;
     height: 75vh;
     width: 100%;
 }
@@ -36,12 +36,16 @@ section {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     height: 90vh;
     width: 80%;
+    padding-top: 2.5%;
 }
 
 .hero-content .container-informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 65%;
 }
 
 .hero-content .container-informations h2 {
@@ -57,3 +61,7 @@ section {
     font-size: 2rem;
     color: var(--grey-paragraph);
 }
+
+
+/* Neutral Section */
+

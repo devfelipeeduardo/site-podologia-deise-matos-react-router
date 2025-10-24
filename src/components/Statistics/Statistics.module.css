@@ -1,0 +1,39 @@
+.performance-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 80%;
+    height: 210px;
+    background-color: var(--brand-beige);
+}
+
+.numbers-and-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    border-right: 1px solid var(--brand-green);
+}
+
+.numbers-and-description:last-child {
+    border: none;
+}
+
+.numbers {
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--grey-head-line);
+}
+
+.description {
+    font-size: 2rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    color: var(--brand-green);
+}
