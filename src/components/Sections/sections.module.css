@@ -28,27 +28,32 @@ section {
     display: flex;
     justify-content: center;
     margin-top: 10vh;
-    height: 90vh;
+    height: 75vh;
     width: 100%;
 }
 
 .hero-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 90vh;
     width: 80%;
-    background-color: white;
 }
 
-.hero-content h2 {
+.hero-content .container-informations {
+}
+
+.hero-content .container-informations h2 {
     color: var(--brand-green);
 }
 
-.hero-content h1 {
+.hero-content .container-informations h1 {
     font-size: 5rem;
     color: var(--grey-head-line);
 }
 
-.hero-content p {
+.hero-content .container-informations p {
     font-size: 2rem;
     color: var(--grey-paragraph);
 }
-

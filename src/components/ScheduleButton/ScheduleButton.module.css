@@ -9,25 +9,25 @@
 }
 
 .brand-green {
-    border: 1px solid var(--brand-green);
     background-color: transparent;
+    border: 1px solid var(--brand-green);
     color: var(--brand-green);
 }
 
 .brand-green:hover {
+    background-color: var(--brand-green);
+    border: 0px solid var(--brand-green);
+    color: var(--white);
+}
+
+.white{
+    background-color: var(--brand-green);
     border: 1px solid white;
-    background-color: var(--brand-green);
-    color: white;
+    color: var(--white);
 }
 
-.brand-green-light-02:hover {
+.white:hover {
+    background-color: var(--white);
     border: 1px solid var(--brand-green);
-    background-color: white;
     color: var(--brand-green);
-}
-
-.brand-green-light-02{
-    border: 0px solid white;
-    background-color: var(--brand-green);
-    color: white;
 }
