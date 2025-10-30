@@ -1,0 +1,100 @@
+/* Services Container*/
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.services-container {
+    font-size: 1.8rem;
+    color: var(--brand-green);
+}
+
+.services-container h2 {
+    font-size: 4.5rem;
+    text-align: center;
+    color: var(--grey-head-line)
+}
+
+.services-container .solutions-cards {
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 400px;
+}
+
+.services-container .card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 347px;
+    height: 207px;
+    padding: 0 20px;
+    margin: 20px;
+    border: 1px solid var(--brand-green-light);
+    border-radius: 5px;
+    background-color: var(--white);
+}
+
+.services-container .emoji {
+    width: 24px;
+    padding-bottom: 10px;
+    height: auto;
+}
+
+.services-container .title {
+    padding-bottom: 10px;
+    font-size: 3rem;
+    color: var(--grey-head-line);
+}
+
+.services-container .description {
+    font-size: 1.5rem;
+    color: var(--grey-paragraph);
+}
+
+/* AboutUs */
+
+.title-and-about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.title-and-about-us-container h2 {
+    font-size: 5rem;
+    padding-bottom: 15px;
+    color: var(--brand-green);
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    height: auto;
+}
+
+.about-us-container .card {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.about-us-container h3 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+    color: var(--grey-head-line);
+}
+
+.about-us-container p {
+    font-size: 1.8rem;
+    color: var(--grey-head-line);
+}
