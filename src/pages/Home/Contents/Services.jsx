@@ -1,6 +1,6 @@
-import correctIcon from "../../../../assets/correct.png"
+import correctIcon from "../../../assets/correct.png"
 
-import styles from "../Contents/Content.module.css"
+import styles from "./Content.module.css"
 
 function Services() {
     return (

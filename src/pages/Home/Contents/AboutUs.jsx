@@ -1,4 +1,4 @@
-import aboutUsImage from "../../../../assets/about-us-image.png"
+import aboutUsImage from "../../../assets/about-us-image.png"
 import styles from "../Contents/Content.module.css"
 
 function AboutUs() {
@@ -18,7 +18,7 @@ function AboutUs() {
         </div>
       </div>
     </div>
-  )
+  ) 
 }
 
 export default AboutUs;

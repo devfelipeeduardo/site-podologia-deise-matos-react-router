@@ -1,5 +1,9 @@
 /* - Colors - */
 
+.white {
+    background-color: white;
+}
+
 .brand-green-light {
     background-color: var(--brand-green-light);
 }
@@ -50,6 +54,7 @@ section {
 
 .hero-content .container-informations h2 {
     color: var(--brand-green);
+    font-size: 17px;
 }
 
 .hero-content .container-informations h1 {
@@ -65,19 +70,19 @@ section {
 
 /* Neutral Section */
 
-.height-130vh {
+.super-large {
     height: 130vh;
 }
 
-.height-120vh {
+.large {
     height: 120vh;
 }
 
-.height-110vh {
+.medium {
     height: 110vh;
 }
 
-.height-110vh {
+.small {
     height: 100vh;
 }
 
