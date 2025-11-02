@@ -116,7 +116,7 @@
 }
 
 .avaliations-container p {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .avaliations-container .cards-container {
@@ -145,4 +145,43 @@
 
 .avaliations-container .name {
     font-weight: 1000;
+}
+
+/* ContactUs */
+
+.contact-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contact-us-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-us-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-us-container h2 {
+    font-size: 4rem;
+    color: var(--grey-head-line);
+}
+
+.contact-us-container .card span img {
+    height: 20px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.contact-us-container .card span {
+    font-size: 2rem;
+    color: var(--grey-head-line);
 }

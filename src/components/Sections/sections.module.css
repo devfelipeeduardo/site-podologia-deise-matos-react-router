@@ -1,5 +1,9 @@
 /* - Colors - */
 
+.beige {
+    background-color: var(--brand-beige);
+}
+
 .white {
     background-color: white;
 }

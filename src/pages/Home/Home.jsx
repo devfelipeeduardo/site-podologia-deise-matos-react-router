@@ -4,6 +4,8 @@ import NeutralSection from "../../components/Sections/NeutralSection/NeutralSect
 import Services from "./Contents/Services";
 import AboutUs from "./Contents/AboutUs";
 import Avaliations from "./Contents/Avaliations";
+import ContactUs from "./Contents/ContactUs";
+import Footer from "../../components/Footer/Footer";
 
 function Home() {
     return (
@@ -18,6 +20,12 @@ function Home() {
             <NeutralSection height={'small'} color={'white'}>
                 <Avaliations />
             </NeutralSection >
+            <NeutralSection height={'small'} color={'beige'}>
+                <ContactUs />
+            </NeutralSection >
+            <Footer>
+
+            </Footer>
         </>
     )
 }

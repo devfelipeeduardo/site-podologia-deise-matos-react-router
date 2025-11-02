@@ -13,7 +13,7 @@ function HeroSection() {
           <h1>Podologia de Qualidade
             Simplificada para Todos</h1>
           <p>A Clínica de Podologia Deise Matos vai além dos sintomas para tratar a causa raíz das doenças nos pés e proporcionar uma cura eficiente!</p>
-          <ScheduleButton color="white" dimension="big" />
+          <ScheduleButton color="white" dimension="large" />
         </div>
         <img className={styles['img']} src={fotoDeise} alt="Foto da pódologa Deise Matos" />
       </main>
