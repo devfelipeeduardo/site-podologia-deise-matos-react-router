@@ -2,8 +2,12 @@
     margin-right: 50px;
     border-radius: 50px;
     font-weight: 600;
-    cursor: pointer;
     transition: all .2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
 }
 
 .small {
@@ -43,4 +47,8 @@
     background-color: var(--white);
     border: 1px solid var(--brand-green);
     color: var(--brand-green);
+}
+
+.whatsapp-icon {
+    width: 17px;
 }

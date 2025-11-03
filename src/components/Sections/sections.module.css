@@ -96,3 +96,24 @@ section {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+
+    header {
+        display: none;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .hero-content img {
+        width: 180px;
+        height: auto;
+    }
+
+    .hero-content .container-informations {
+        align-items: center;
+    }
+}
+

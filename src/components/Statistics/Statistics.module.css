@@ -37,3 +37,11 @@
     word-break: break-word;
     color: var(--brand-green);
 }
+
+@media (max-width: 768px) { 
+
+    .performance-metrics {
+        display: none;
+    }
+
+}

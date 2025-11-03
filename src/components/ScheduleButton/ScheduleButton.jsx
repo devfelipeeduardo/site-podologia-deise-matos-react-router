@@ -1,8 +1,22 @@
+import { useEffect } from "react";
 import styles from "./ScheduleButton.module.css"
+import whatsAppIconWhite from "../../assets/logo-whatsapp-white.png"
+import whatsAppIconGreen from "../../assets/logo-whatsapp-green.png"
 
 function ScheduleButton({ color, dimension }) {
+
+    useEffect(() => {
+    new Image().src = whatsAppIconWhite;
+    new Image().src = whatsAppIconGreen;
+  }, []);
+
   return (
-    <button className={`${styles['schedule-button']} ${styles[color]} ${styles[dimension]}`}>AGENDAR CONSULTA</button>
+    <a href="https://api.whatsapp.com/send/?phone=5511975126282&text&type=phone_number&app_absent=0" target="blank">
+      <button className={`${styles['schedule-button']} ${styles[color]} ${styles[dimension]}`}>
+        <img src={color === "white" ? whatsAppIconWhite : whatsAppIconGreen} className={styles['whatsapp-icon']} alt="" />
+        AGENDAR CONSULTA
+      </button>
+    </a>
   )
 }
 

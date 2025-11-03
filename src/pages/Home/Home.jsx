@@ -1,4 +1,3 @@
-// import styles from "./Home.module.css"
 import HeroSection from "../../components/Sections/HeroSection";
 import NeutralSection from "../../components/Sections/NeutralSection/NeutralSection"
 import Services from "./Contents/Services";
@@ -23,9 +22,7 @@ function Home() {
             <NeutralSection height={'small'} color={'beige'}>
                 <ContactUs />
             </NeutralSection >
-            <Footer>
-
-            </Footer>
+            <Footer />
         </>
     )
 }
