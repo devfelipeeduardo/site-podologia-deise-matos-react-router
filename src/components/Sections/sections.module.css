@@ -36,7 +36,7 @@ section {
     display: flex;
     justify-content: center;
     padding-top: 10vh;
-    height: 85vh;
+    /* height: 100vh; */
     width: 100%;
 }
 
@@ -107,13 +107,28 @@ section {
         align-items: center;
     }
 
-    .hero-content img {
-        width: 180px;
-        height: auto;
+    
+    .hero-content .deise-image {
+        height: 250px;
+        width: auto;
     }
-
+    
     .hero-content .container-informations {
         align-items: center;
+    }
+    
+    .hero-content .container-informations > h1,
+    .hero-content .container-informations > h2,
+    .hero-content .container-informations > p {
+        text-align: center;
+    }
+
+    .hero-content .container-informations h1 {
+        font-size: 4rem;
+    }
+
+    .hero-content .container-informations p {
+        font-size: 1.8rem;
     }
 }
 

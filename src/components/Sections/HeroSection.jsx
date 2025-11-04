@@ -15,7 +15,7 @@ function HeroSection() {
           <p>A Clínica de Podologia Deise Matos vai além dos sintomas para tratar a causa raíz das doenças nos pés e proporcionar uma cura eficiente!</p>
           <ScheduleButton color="white" dimension="large" />
         </div>
-        <img className={styles['img']} src={fotoDeise} alt="Foto da pódologa Deise Matos" />
+        <img className={styles['deise-image']} src={fotoDeise} alt="Foto da pódologa Deise Matos" />
       </main>
       <Statistics />
     </section>
