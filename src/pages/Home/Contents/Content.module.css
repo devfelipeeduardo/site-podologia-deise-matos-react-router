@@ -185,3 +185,23 @@
     font-size: 2rem;
     color: var(--grey-head-line);
 }
+
+
+
+@media (max-width: 768px) {
+    
+    /* Services */
+
+    .services-container .solutions-cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(8, 1fr);
+        overflow-y: scroll;
+    }
+
+    /* About Us*/
+
+    .about-us-container img {
+        display: none;
+    }
+
+}

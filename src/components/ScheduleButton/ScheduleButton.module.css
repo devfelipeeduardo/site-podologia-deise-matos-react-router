@@ -1,5 +1,4 @@
 .schedule-button {
-    margin-right: 50px;
     border-radius: 50px;
     font-weight: 600;
     transition: all .2s ease;
@@ -51,4 +50,8 @@
 
 .whatsapp-icon {
     width: 17px;
+}
+
+.margin-right-50px {
+    margin-right: 50px;
 }

@@ -99,7 +99,11 @@ section {
 @media (max-width: 768px) {
 
     header {
-        display: none;
+        /* display: none; */
+    }
+
+    .hero-section {
+        /* padding-top: 5vh; */
     }
 
     .hero-content {
@@ -109,11 +113,14 @@ section {
 
     
     .hero-content .deise-image {
-        height: 250px;
+        height: 180px;
         width: auto;
     }
     
     .hero-content .container-informations {
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
     }
     
@@ -125,10 +132,11 @@ section {
 
     .hero-content .container-informations h1 {
         font-size: 4rem;
+        line-height: 40px;
     }
 
     .hero-content .container-informations p {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 }
 
