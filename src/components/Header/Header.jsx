@@ -6,11 +6,11 @@ import ScheduleButton from "../ScheduleButton/ScheduleButton";
 
 import logoGreen from "../../assets/logo-deise-matos-green.png"
 import logoWhite from "../../assets/logo-deise-matos.png"
-// import logo from "../../assets/logo-deise-matos-green.png"
 
 function Header() {
 
     const [isSuspense, setSuspense] = useState(false);
+    const [isNavHidden, setNavHidden] = useState(false);
     const [scheduleBtnColor, setScheduleBtnColor] = useState(false);
 
     useEffect(() => {
@@ -36,15 +36,21 @@ function Header() {
         };
     }, [isSuspense]);
 
+    const handleToggleMenu = () => {
+        setNavHidden((prev) => !prev);
+    };
+
     console.log(isSuspense)
 
     return (
         <header className={`${styles['header']} ${isSuspense ? styles['header-suspense'] : styles['brand-green-light-background']}`}>
-            <Link to="/" className={styles['header']}>
+            <Link to="/">
                 <img className={styles['logo']} src={`${isSuspense ? logoWhite : logoGreen}`} alt="Logo Deise" />
             </Link>
-            <Nav isSuspense={isSuspense} />
+            <button className={styles['menu-toggle']} onClick={handleToggleMenu}>≡</button>
+            <Nav isSuspense={isSuspense} isNavHidden={isNavHidden}/>
             <ScheduleButton color={scheduleBtnColor} dimension={"small"} margin={"margin-right-50px"}/>
+
         </header>
     )
 }

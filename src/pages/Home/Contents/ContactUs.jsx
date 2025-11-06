@@ -9,11 +9,11 @@ function ContactUs() {
         <div className={styles['contact-us-container']}>
             <div className={styles['card']}>
                 <h2>Entre em contato com a gente</h2>
-                <span>
-                    <img src={adressIcon} alt="Ícone de e-mail" />
-                    R. Moacir Miguel da Silva, 61 - Jardim Bonfiglioli
+                <span className={styles['endereco-span']}>
+                    <img src={adressIcon} alt="Ícone de endereço" />
+                    R. Moacir Miguel da Silva, 61 - Jd. Bonfiglioli
                 </span>
-                <span>
+                <span className={styles['email-span']} >
                     <img src={emailIcon} alt="Ícone de e-mail" />
                     podologiadeisematos@gmail.com
                 </span>

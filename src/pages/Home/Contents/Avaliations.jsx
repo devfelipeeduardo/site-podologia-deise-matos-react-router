@@ -12,7 +12,6 @@ function Avaliations() {
                     <span>"Gostei muito! Ótimo espaço, bom atendimento. Recomendo ✨"
                     </span>
                     <div className={styles["person"]}>
-                        <img src=" " alt="" />
                         <div className={styles["name"]}>Felipe Eduardo</div>
                     </div>
                 </div>
@@ -21,7 +20,6 @@ function Avaliations() {
                     <span>"Ótimo serviço, boa recepção, são super atenciosos, só tenho a agradecer 🙏🏻"
                     </span>
                     <div className={styles["person"]}>
-                        <img src="" alt="" />
                         <div className={styles["name"]}>Deise Matos</div>
                     </div>
                 </div>

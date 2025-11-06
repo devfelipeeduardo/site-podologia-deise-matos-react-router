@@ -21,8 +21,8 @@ header {
 }
 
 .brand-green-light-background {
-    background-color: var(--brand-green-light);
-    color: green;
+  background-color: var(--brand-green-light);
+  color: green;
 }
 
 .header-suspense {
@@ -39,4 +39,29 @@ header {
 
 .logo:hover {
   cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+  color: white;
+  font-size: 5rem;
+  position: absolute;
+  right: 2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    position: fixed;
+    height: 100vh;
+    flex-direction: column;
+  }
+
+  .menu-toggle {
+    display: inline
+  }
 }

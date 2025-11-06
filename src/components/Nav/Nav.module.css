@@ -1,6 +1,6 @@
 /* Nav */
 
-nav {
+.nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,7 +9,7 @@ nav {
   height: 100%;
 }
 
-nav .link {
+.link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ nav .link {
   transition: all 500ms ease;
 }
 
-nav .link::after {
+.link::after {
   content: " ";
   width: 0%;
   height: 2px;
@@ -35,15 +35,15 @@ nav .link::after {
   transition: all 500ms ease;
 }
 
-nav .link:hover::after {
+.link:hover::after {
   width: 100%;
 }
 
-nav .link-suspense {
+.link-suspense {
   color: white;
 }
 
-nav .link-suspense::after {
+.link-suspense::after {
   content: " ";
   width: 0%;
   height: 2px;
@@ -54,15 +54,27 @@ nav .link-suspense::after {
   transition: all 500ms ease;
 }
 
-nav .link-suspense:hover::after {
+.link-suspense:hover::after {
   width: 100%;
 }
 
-nav .link:first-child {
+.link:first-child {
   margin-left: 0px;
 }
 
-nav .link:hover {
+.link:hover {
   font-weight: 800;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-hidden {
+    display: none;
+  }
+
+  .nav {
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+  }
 }
