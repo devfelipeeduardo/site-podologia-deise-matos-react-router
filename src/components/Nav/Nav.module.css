@@ -73,8 +73,14 @@
   }
 
   .nav {
+    position: absolute;
     flex-direction: column;
-    position: fixed;
     height: 100vh;
+    background: var(--brand-green);
+  }
+
+  .link {
+    height: 0px;
+    width: 100vw;
   }
 }
