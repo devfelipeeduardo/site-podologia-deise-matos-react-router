@@ -8,7 +8,6 @@ import logoGreen from "../../assets/logo-deise-matos-green.png"
 import logoWhite from "../../assets/logo-deise-matos.png"
 
 function Header() {
-
     const [isSuspense, setSuspense] = useState(false);
     const [isNavHidden, setNavHidden] = useState(false);
     const [scheduleBtnColor, setScheduleBtnColor] = useState(false);
