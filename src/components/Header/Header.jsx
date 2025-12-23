@@ -39,6 +39,10 @@ function Header() {
         setNavHidden((prev) => !prev);
     };
 
+    const handleNavLinkClick = () => {
+        setNavHidden(false);
+    };
+
     console.log(isSuspense)
 
     return (
@@ -46,8 +50,8 @@ function Header() {
             <Link to="/">
                 <img className={styles['logo']} src={`${isSuspense ? logoWhite : logoGreen}`} alt="Logo Deise" />
             </Link>
-            <button className={styles['menu-toggle']} onClick={handleToggleMenu}>≡</button>
-            <Nav isSuspense={isSuspense} isNavHidden={isNavHidden}/>
+            <button className={`${styles['menu-toggle']} ${isSuspense ? styles['menu-toggle-suspense'] : ''}`} onClick={handleToggleMenu}>≡</button>
+            <Nav isSuspense={isSuspense} isNavHidden={isNavHidden} onNavLinkClick={handleNavLinkClick}/>
             <ScheduleButton color={scheduleBtnColor} dimension={"small"} margin={"margin-right-50px"}/>
 
         </header>

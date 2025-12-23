@@ -67,20 +67,38 @@
   cursor: pointer;
 }
 
+.nav-suspense {
+  background-color: var(--brand-green);
+}
+
 @media (max-width: 768px) {
   .nav-hidden {
     display: none;
   }
 
   .nav {
-    position: absolute;
+    position: fixed;
     flex-direction: column;
-    height: 100vh;
+    background: var(--brand-green-light);
+    top: 10vh;
+    left: 0;
+    width: 100vw;
+    height: calc(100vh - 10vh);
+    z-index: 999;
+    transition: background-color 500ms ease;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .nav.nav-suspense {
     background: var(--brand-green);
   }
 
   .link {
-    height: 0px;
+    height: auto;
     width: 100vw;
+    font-size: 2rem;
+    padding: 20px 0;
+    margin-left: 0;
   }
 }

@@ -43,7 +43,7 @@ header {
 
 .menu-toggle {
   display: none;
-  color: white;
+  color: var(--brand-green);
   font-size: 5rem;
   position: absolute;
   right: 2.5rem;
@@ -52,6 +52,11 @@ header {
   cursor: pointer;
   background: none;
   border: none;
+  transition: color 500ms ease;
+}
+
+.menu-toggle-suspense {
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -60,6 +65,7 @@ header {
   }
 
   .menu-toggle {
-    display: inline
+    display: inline;
+    z-index: 1000;
   }
 }

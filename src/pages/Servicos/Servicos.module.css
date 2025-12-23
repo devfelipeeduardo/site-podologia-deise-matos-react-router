@@ -4,10 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.hero-section.brand-green-light {
-  background-color: #e8f2e1;
+  background-color: var(--brand-beige);
 }
 
 .hero-content {
@@ -18,14 +15,14 @@
 .hero-content h1 {
   font-size: 5rem;
   font-weight: 700;
-  color: #4a5d66;
+  color: var(--grey-head-line);
   margin-bottom: 20px;
   line-height: 1.2;
 }
 
 .hero-content p {
   font-size: 2rem;
-  color: #7a8a93;
+  color: var(--grey-paragraph);
   line-height: 1.6;
 }
 
@@ -39,7 +36,7 @@
   font-size: 4.5rem;
   margin-bottom: 50px;
   text-align: center;
-  color: #2d9f20;
+  color: var(--brand-green);
   font-weight: 700;
 }
 
@@ -67,14 +64,14 @@
 .service-card h3 {
   font-size: 3rem;
   margin-bottom: 15px;
-  color: #4a5d66;
+  color: var(--grey-head-line);
   font-weight: 700;
 }
 
 .service-card p {
   font-size: 1.5rem;
   line-height: 1.6;
-  color: #7a8a93;
+  color: var(--grey-head-line);
 }
 
 .info-container {
@@ -87,7 +84,7 @@
 .info-container h2 {
   font-size: 4rem;
   margin-bottom: 40px;
-  color: #4a5d66;
+  color: var(--grey-head-line);
   font-weight: 700;
 }
 
@@ -100,14 +97,14 @@
 .benefit-item {
   background: white;
   padding: 20px;
-  border-left: 5px solid #2d9f20;
+  border-left: 5px solid var(--brand-green);
   border-radius: 5px;
   text-align: left;
 }
 
 .benefit-item p {
   font-size: 1.8rem;
-  color: #4a5d66;
+  color: var(--grey-head-line);
   margin: 0;
 }
 
@@ -134,6 +131,10 @@
 
   .service-card {
     padding: 25px;
+  }
+
+  .service-card:nth-child(n+4) {
+    display: none;
   }
 
   .service-card h3 {

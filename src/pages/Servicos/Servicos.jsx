@@ -5,7 +5,7 @@ import styles from "./Servicos.module.css"
 function Servicos() {
     return (
         <>
-            <section className={`${styles['hero-section']} ${styles['brand-green-light']}`}>
+            <section className={`${styles['hero-section']} ${styles['']}`}>
                 <div className={styles['hero-content']}>
                     <h1>NOSSOS SERVIÇOS 👣</h1>
                     <p>Conheça todos os tratamentos podológicos disponíveis na nossa clínica</p>
