@@ -16,8 +16,8 @@
 }
 
 .hero-content h1 {
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 600;
   color: var(--grey-head-line);
   margin-bottom: 20px;
   line-height: 1.2;
@@ -37,14 +37,14 @@
 }
 
 .about-container h2 {
-  font-size: 5rem;
+  font-size: 6rem;
   margin-bottom: 30px;
   color: var(--brand-green);
   font-weight: 700;
 }
 
 .about-container p {
-  font-size: 1.8rem;
+  font-size: 3rem;
   line-height: 1.8;
   color: var(--grey-head-line);
   margin-bottom: 20px;
@@ -117,6 +117,10 @@
   line-height: 1.8;
   color: var(--grey-head-line);
   margin-bottom: 20px;
+}
+
+.foto-frente {
+  width: 600px;
 }
 
 @media (max-width: 768px) {

@@ -1,14 +1,17 @@
 import NeutralSection from "../../components/Sections/NeutralSection/NeutralSection";
 import Footer from "../../components/Footer/Footer";
 import styles from "./Sobre.module.css"
+import fotoFrente from "../../assets/foto_frente_podologia.jpeg"
 
 function Sobre() {
     return (
         <>
             <section className={`${styles['hero-section']} ${styles['brand-green-light']}`}>
                 <div className={styles['hero-content']}>
-                    <h1>SOBRE A CLÍNICA DEISE MATOS 👨‍⚕️</h1>
-                    <p>Conheça nossa história, valores e missão dedicados ao cuidado com seus pés</p>
+                    <div className="title-and-sub-title">
+                        <h1>Conheça nossa história, valores e missão dedicados ao cuidado com seus pés</h1>
+                    </div>
+                        <img className={styles['foto-frente']} src={fotoFrente} alt="foto de frente com a clínica"></img>
                 </div>
             </section>
             <NeutralSection height={'small'} color={'brand-green-light-02'}>

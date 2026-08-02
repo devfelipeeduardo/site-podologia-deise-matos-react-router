@@ -5,7 +5,7 @@ import styles from "./Contato.module.css"
 function Contato() {
     return (
         <>
-            <section className={`${styles['hero-section']} ${styles['']}`}>
+            <section className={styles['hero-section']}>
                 <div className={styles['hero-content']}>
                     <h1>FALE CONOSCO 📞</h1>
                     <p>Entre em contato e agende seu atendimento na clínica</p>
@@ -21,11 +21,11 @@ function Contato() {
                         </div>
                         <div className={styles['info-card']}>
                             <h3>📱 Telefone</h3>
-                            <p>(00) 0000-0000<br/>(00) 00000-0000<br/>WhatsApp disponível</p>
+                            <p>(+11) 97512-6282<br/>WhatsApp disponível!</p>
                         </div>
                         <div className={styles['info-card']}>
                             <h3>✉️ Email</h3>
-                            <p>contato@clinicadeisematos.com.br<br/>atendimento@clinicadeisematos.com.br</p>
+                            <p>contato@deisematos.com.br</p>
                         </div>
                     </div>
                 </div>

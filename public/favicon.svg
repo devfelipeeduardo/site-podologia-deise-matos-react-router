@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Fundo -->
+  <circle cx="50" cy="50" r="45" fill="#e8f4f8" stroke="#4a9fb5" stroke-width="2"/>
+  
+  <!-- Pé estilizado -->
+  <g transform="translate(50, 50)">
+    <!-- Calcanhar -->
+    <circle cx="-10" cy="20" r="8" fill="#4a9fb5"/>
+    
+    <!-- Sola -->
+    <ellipse cx="0" cy="15" rx="15" ry="12" fill="#4a9fb5"/>
+    
+    <!-- Dedos -->
+    <circle cx="-12" cy="-5" r="6" fill="#4a9fb5"/>
+    <circle cx="-3" cy="-12" r="6" fill="#4a9fb5"/>
+    <circle cx="8" cy="-10" r="6" fill="#4a9fb5"/>
+    <circle cx="14" cy="-2" r="6" fill="#4a9fb5"/>
+    
+    <!-- Unhas (detalhe) -->
+    <circle cx="-12" cy="-8" r="2" fill="#e8f4f8"/>
+    <circle cx="-3" cy="-15" r="2" fill="#e8f4f8"/>
+    <circle cx="8" cy="-13" r="2" fill="#e8f4f8"/>
+    <circle cx="14" cy="-5" r="2" fill="#e8f4f8"/>
+  </g>
+</svg>
