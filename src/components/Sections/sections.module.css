@@ -138,12 +138,8 @@ section {
 
 @media (max-width: 768px) {
 
-    header {
-        /* display: none; */
-    }
-
-    .hero-section {
-        /* padding-top: 5vh; */
+    .hero-section h2 {
+        font-size: 25px;
     }
 
     .hero-content {
