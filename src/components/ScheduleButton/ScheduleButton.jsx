@@ -13,7 +13,8 @@ function ScheduleButton({ color, dimension, margin }) {
   return (
     <a href="https://api.whatsapp.com/send/?phone=5511975126282&text&type=phone_number&app_absent=0" target="blank">
       <button className={`${styles['schedule-button']} ${styles[color]} ${styles[dimension]} ${styles[margin]}`}>
-        <img src={color === "white" ? whatsAppIconWhite : whatsAppIconGreen} className={styles['whatsapp-icon']} alt="" />
+        <img src={whatsAppIconWhite} className={`${styles['whatsapp-icon']} ${styles['icon-white']}`} alt="" />
+        <img src={whatsAppIconGreen} className={`${styles['whatsapp-icon']} ${styles['icon-green']}`} alt="" />
         AGENDAR CONSULTA
       </button>
     </a>

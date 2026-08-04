@@ -27,7 +27,7 @@
 /* - Sections - */
 
 section {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -71,23 +71,63 @@ section {
     color: var(--grey-paragraph);
 }
 
+/* Hero entrance animation */
+
+@keyframes hero-fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-content .container-informations > * {
+    opacity: 0;
+    animation: hero-fade-up 0.7s ease-out forwards;
+}
+
+.hero-content .container-informations > h2 {
+    animation-delay: 0.1s;
+}
+
+.hero-content .container-informations > h1 {
+    animation-delay: 0.25s;
+}
+
+.hero-content .container-informations > p {
+    animation-delay: 0.4s;
+}
+
+.hero-content .container-informations > a,
+.hero-content .container-informations > button {
+    animation-delay: 0.55s;
+}
+
+.hero-content .deise-image {
+    opacity: 0;
+    animation: hero-fade-up 0.8s ease-out 0.4s forwards;
+}
+
 
 /* Neutral Section */
 
 .super-large {
-    height: 130vh;
+    min-height: 130vh;
 }
 
 .large {
-    height: 120vh;
+    min-height: 120vh;
 }
 
 .medium {
-    height: 110vh;
+    min-height: 110vh;
 }
 
 .small {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .neutral-section {
@@ -113,8 +153,7 @@ section {
 
     
     .hero-content .deise-image {
-        height: 180px;
-        width: auto;
+        display: none;
     }
     
     .hero-content .container-informations {

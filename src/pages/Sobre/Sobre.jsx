@@ -6,18 +6,19 @@ import fotoFrente from "../../assets/foto_frente_podologia.jpeg"
 function Sobre() {
     return (
         <>
-            <section className={`${styles['hero-section']} ${styles['brand-green-light']}`}>
+            <section className={styles['hero-section']}>
+                <div className={styles['hero-bg']} style={{ backgroundImage: `url(${fotoFrente})` }}></div>
+                <div className={styles['hero-overlay']}></div>
                 <div className={styles['hero-content']}>
                     <div className="title-and-sub-title">
                         <h1>Conheça nossa história, valores e missão dedicados ao cuidado com seus pés</h1>
                     </div>
-                        <img className={styles['foto-frente']} src={fotoFrente} alt="foto de frente com a clínica"></img>
                 </div>
             </section>
             <NeutralSection height={'small'} color={'brand-green-light-02'}>
                 <div className={styles['about-container']}>
                     <h2>Nossa História</h2>
-                    <p>Com mais de 18 anos de experiência, a Clínica de Podologia Deise Matos se consolidou como uma referência em cuidados podológicos. Nossa trajetória é marcada pelo compromisso com a excelência, ética profissional e dedicação ao bem-estar dos nossos pacientes.</p>
+                    <p>Com mais de 19 anos de experiência, a Clínica de Podologia Deise Matos se consolidou como uma referência em cuidados podológicos. Nossa trajetória é marcada pelo compromisso com a excelência, ética profissional e dedicação ao bem-estar dos nossos pacientes.</p>
                 </div>
             </NeutralSection>
             <NeutralSection height={'small'} color={'brand-beige'}>

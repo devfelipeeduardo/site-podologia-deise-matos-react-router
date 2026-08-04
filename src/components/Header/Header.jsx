@@ -13,26 +13,31 @@ function Header() {
     const [scheduleBtnColor, setScheduleBtnColor] = useState(false);
 
     useEffect(() => {
+        let ticking = false;
+
         const handleScroll = () => {
-            if (window.scrollY > 100) {
-                setSuspense(true);
-            } else {
-                setSuspense(false);
-            }
+            if (ticking) return;
+            ticking = true;
+
+            window.requestAnimationFrame(() => {
+                setSuspense((prev) => {
+                    if (window.scrollY > 100) return true;
+                    if (window.scrollY < 60) return false;
+                    return prev;
+                });
+                ticking = false;
+            });
         };
 
-        if (isSuspense == true) {
-            setScheduleBtnColor("white");
-        } 
-        else {
-            setScheduleBtnColor("brand-green")
-        }
-
-        window.addEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", handleScroll, { passive: true });
 
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
+    }, []);
+
+    useEffect(() => {
+        setScheduleBtnColor(isSuspense ? "white" : "brand-green");
     }, [isSuspense]);
 
     const handleToggleMenu = () => {
@@ -43,14 +48,12 @@ function Header() {
         setNavHidden(false);
     };
 
-    console.log(isSuspense)
-
     return (
         <header className={`${styles['header']} ${isSuspense ? styles['header-suspense'] : styles['brand-green-light-background']}`}>
-            <Link to="/">
+            <Link to="/" onClick={handleNavLinkClick}>
                 <img className={styles['logo']} src={`${isSuspense ? logoWhite : logoGreen}`} alt="Logo Deise" />
             </Link>
-            <button className={`${styles['menu-toggle']} ${isSuspense ? styles['menu-toggle-suspense'] : ''}`} onClick={handleToggleMenu}>≡</button>
+            <button className={`${styles['menu-toggle']} ${isSuspense ? styles['menu-toggle-suspense'] : ''} ${isNavHidden ? styles['menu-toggle-open'] : ''}`} onClick={handleToggleMenu}>{isNavHidden ? '✕' : '≡'}</button>
             <Nav isSuspense={isSuspense} isNavHidden={isNavHidden} onNavLinkClick={handleNavLinkClick}/>
             <ScheduleButton color={scheduleBtnColor} dimension={"small"} margin={"margin-right-50px"}/>
 

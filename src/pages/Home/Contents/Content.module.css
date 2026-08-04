@@ -19,6 +19,17 @@
     color: var(--grey-head-line)
 }
 
+.services-container h3 {
+    font-size: 5rem;
+    text-align: center;
+    color: var(--brand-green);
+    margin-bottom: 20px;
+}
+
+.services-container h2 {
+    margin-bottom: 50px;
+}
+
 .services-container .solutions-cards {
     display: grid;
     align-items: center;

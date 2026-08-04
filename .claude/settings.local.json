@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk npm *)",
+      "Bash(rtk ls *)",
+      "Bash(rtk playwright *)",
+      "Bash(npm ls *)",
+      "Bash(rtk npx *)",
+      "Bash(rtk curl *)",
+      "Bash(node -e \"require.resolve\\('playwright'\\)\")"
+    ]
+  }
+}

@@ -50,6 +50,31 @@
 
 .whatsapp-icon {
     width: 17px;
+    display: none;
+}
+
+.brand-green .icon-green {
+    display: block;
+}
+
+.brand-green:hover .icon-green {
+    display: none;
+}
+
+.brand-green:hover .icon-white {
+    display: block;
+}
+
+.white .icon-white {
+    display: block;
+}
+
+.white:hover .icon-white {
+    display: none;
+}
+
+.white:hover .icon-green {
+    display: block;
 }
 
 .margin-right-50px {
