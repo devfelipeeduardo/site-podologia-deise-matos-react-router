@@ -2,6 +2,7 @@ import NeutralSection from "../../components/Sections/NeutralSection/NeutralSect
 import Footer from "../../components/Footer/Footer";
 import styles from "./Sobre.module.css"
 import fotoFrente from "../../assets/foto_frente_podologia.jpeg"
+import bonecaImagem from "../../assets/boneco_deise.png"
 
 function Sobre() {
     return (
@@ -17,7 +18,7 @@ function Sobre() {
             </section>
             <NeutralSection height={'small'} color={'brand-green-light-02'}>
                 <div className={styles['about-container']}>
-                    <h2>Nossa História</h2>
+                    <h2>Nossa História 📖</h2>
                     <p>Com mais de 19 anos de experiência, a Clínica de Podologia Deise Matos se consolidou como uma referência em cuidados podológicos. Nossa trajetória é marcada pelo compromisso com a excelência, ética profissional e dedicação ao bem-estar dos nossos pacientes.</p>
                 </div>
             </NeutralSection>
@@ -45,9 +46,12 @@ function Sobre() {
                 </div>
             </NeutralSection>
             <NeutralSection height={'small'} color={'white'}>
-                <div className={styles['mission-container']}>
-                    <h2>Nossa Missão</h2>
-                    <p>Proporcionar tratamentos podológicos de excelência que melhorem a qualidade de vida dos nossos pacientes, trabalhando com ética, respeito e dedicação para solucionar os problemas nos pés de forma eficiente e humanizada.</p>
+                <div className={styles['mission-div']}>
+                    <div className={styles['mission-container']}>
+                        <h2>Nossa Missão 🤝</h2>
+                        <p>Proporcionar tratamentos podológicos de excelência que melhorem a qualidade de vida dos nossos pacientes, trabalhando com ética, respeito e dedicação para solucionar os problemas nos pés de forma eficiente e humanizada.</p>
+                    </div>
+                    <img className={styles['mission-image']} src={bonecaImagem} alt="Boneca da Deise" />
                 </div>
             </NeutralSection>
             <Footer />

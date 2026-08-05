@@ -83,6 +83,7 @@
 .title-and-about-us-container h2 {
     font-size: 5rem;
     color: var(--brand-green);
+    margin-bottom: 15px
 }
 
 .about-us-container {
@@ -101,11 +102,13 @@
 
 .about-us-container h3 {
     font-size: 4rem;
+    line-height: 1;
+    margin-bottom: 10px;
     color: var(--grey-head-line);
 }
 
 .about-us-container p {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--grey-head-line);
 }
 
@@ -123,16 +126,22 @@
 
 .avaliations-container h2 {
     font-size: 4.5rem;
+    margin-bottom: 30px;
 }
 
 .avaliations-container p {
+    margin-bottom: 30px;
     font-size: 2.8rem;
 }
 
 .avaliations-container .cards-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 2rem;
 }
 
 .avaliations-container .card {

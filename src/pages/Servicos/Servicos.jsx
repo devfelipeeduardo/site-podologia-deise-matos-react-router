@@ -47,7 +47,7 @@ function Servicos() {
                     <h2>Por que escolher nossos serviços?</h2>
                     <div className={styles['benefits-list']}>
                         <div className={styles['benefit-item']}>
-                            <p>✔️ Profissionais experientes com 18+ anos no mercado</p>
+                            <p>✔️ Profissionais experientes com 19+ anos no mercado</p>
                         </div>
                         <div className={styles['benefit-item']}>
                             <p>✔️ Tecnologia moderna e equipamentos de alta qualidade</p>

@@ -22,7 +22,7 @@
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.10);
 }
 
 .hero-content {
@@ -51,7 +51,7 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .about-container h2 {
@@ -63,7 +63,7 @@
 
 .about-container p {
   font-size: 3rem;
-  line-height: 1.8;
+  line-height: 1.6;
   color: var(--grey-head-line);
   margin-bottom: 20px;
 }
@@ -120,11 +120,22 @@
   color: var(--grey-paragraph)
 }
 
+.mission-div {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+}
+
+.mission-image {
+  width: 45%;
+  height: auto;
+}
+
 .mission-container {
-  max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
-  text-align: center;
+  width: 100%;
+  max-width: 1400px;
 }
 
 .mission-container h2 {
@@ -135,8 +146,8 @@
 }
 
 .mission-container p {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  font-size: 2.3rem;
+  line-height: 1.4;
   color: var(--grey-head-line);
   margin-bottom: 20px;
 }
@@ -182,5 +193,17 @@
 
   .value-card p {
     font-size: 1.5rem;
+  }
+
+  .mission-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+  }
+
+  .mission-image {
+    width: 85%;
   }
 }

@@ -9,7 +9,7 @@ function AboutUs() {
         <img alt="" src={aboutUsImage} />
         <div className={styles['card']}>
           <h3>Entenda quem somos e porquê existimos</h3>
-          <p>Com 18 anos de experiência, construímos uma história marcada por cuidado, ética e excelência. Nossa missão é oferecer um atendimento personalizado, com atenção aos detalhes e dedicação a cada cliente. Acreditamos que cada pessoa é única e merece confiança, bem-estar e resultados de qualidade.
+          <p>Com 19 anos de experiência, construímos uma história marcada por cuidado, ética e excelência. Nossa missão é oferecer um atendimento personalizado, com atenção aos detalhes e dedicação a cada cliente. Acreditamos que cada pessoa é única e merece confiança, bem-estar e resultados de qualidade.
             <br />
             ✨ Missão: cuidar com empatia e profissionalismo.
             <br />
