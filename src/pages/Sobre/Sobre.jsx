@@ -1,7 +1,7 @@
 import NeutralSection from "../../components/Sections/NeutralSection/NeutralSection";
 import Footer from "../../components/Footer/Footer";
 import styles from "./Sobre.module.css"
-import certificado  from "../../assets/certificado.jpg"
+import certificado  from "../../assets/certificado.png"
 import fotoFrente from "../../assets/frente_podologia.png"
 
 function Sobre() {
