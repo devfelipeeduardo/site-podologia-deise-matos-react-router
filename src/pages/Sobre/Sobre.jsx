@@ -1,14 +1,14 @@
 import NeutralSection from "../../components/Sections/NeutralSection/NeutralSection";
 import Footer from "../../components/Footer/Footer";
 import styles from "./Sobre.module.css"
-import fotoFrente from "../../assets/foto_frente_podologia.jpeg"
-import bonecaImagem from "../../assets/boneco_deise.png"
+import certificado from "../../assets/certificado.jpg"
+import fotoFrente from "../../assets/frente_podologia.png"
 
 function Sobre() {
     return (
         <>
             <section className={styles['hero-section']}>
-                <div className={styles['hero-bg']} style={{ backgroundImage: `url(${fotoFrente})` }}></div>
+                <div className={styles['hero-bg']} style={{ backgroundImage: `url(${certificado})` }}></div>
                 <div className={styles['hero-overlay']}></div>
                 <div className={styles['hero-content']}>
                     <div className="title-and-sub-title">
@@ -51,7 +51,7 @@ function Sobre() {
                         <h2>Nossa Missão 🤝</h2>
                         <p>Proporcionar tratamentos podológicos de excelência que melhorem a qualidade de vida dos nossos pacientes, trabalhando com ética, respeito e dedicação para solucionar os problemas nos pés de forma eficiente e humanizada.</p>
                     </div>
-                    <img className={styles['mission-image']} src={bonecaImagem} alt="Boneca da Deise" />
+                    <img className={styles['mission-image']} src={fotoFrente} alt="Boneca da Deise" />
                 </div>
             </NeutralSection>
             <Footer />

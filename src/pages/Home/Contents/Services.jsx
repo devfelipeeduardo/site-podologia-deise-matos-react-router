@@ -30,8 +30,8 @@ function Services() {
                 </div>
                 <div class={styles['card']}>
                     <img class={styles['emoji']} alt="OK IMAGE" src={correctIcon} />
-                    <h4 class={styles['title']}>Micose de Unha</h4>
-                    <p class={styles['description']}>Eliminação segura de fungos, devolvendo a aparência saudável às unhas.</p>
+                    <h4 class={styles['title']}>Joanete</h4>
+                    <p class={styles['description']}>Alívio do desconforto e cuidados para melhorar a saúde e o bem-estar dos pés afetados por joanetes.</p>
                 </div><div class={styles['card']}>
                     <img class={styles['emoji']} alt="OK IMAGE" src={correctIcon} />
                     <h4 class={styles['title']}>Onicogrifose</h4>
