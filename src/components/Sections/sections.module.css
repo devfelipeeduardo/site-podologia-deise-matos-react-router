@@ -227,18 +227,18 @@ section {
         align-items: center;
     }
 
-    
+
     .hero-content .deise-image {
         display: none;
     }
-    
+
     .hero-content .container-informations {
         height: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
     }
-    
+
     .hero-content .container-informations > h1,
     .hero-content .container-informations > h2,
     .hero-content .container-informations > p {
@@ -252,6 +252,39 @@ section {
 
     .hero-content .container-informations p {
         font-size: 1.5rem;
+    }
+
+    .services-first-section {
+        padding-top: 6vh;
+        min-height: 50vh;
+        height: auto !important;
+    }
+
+    .services-first-content {
+        height: auto;
+        width: 90%;
+        padding-top: 0;
+    }
+
+    .services-first-content .container-informations {
+        padding-top: 8%;
+        height: auto;
+        gap: 16px;
+    }
+
+    .services-first-content .container-informations h2 {
+        font-size: 1.8rem;
+    }
+
+    .services-first-content .container-informations h1 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .services-first-content .container-informations p {
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
 
