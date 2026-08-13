@@ -29,7 +29,7 @@ const servicesData = [
 function Servicos() {
     return (
         <>
-            <NeutralSection height={'large'} color={'brand-green-light-02'}>
+            <NeutralSection height={'small'} color={'brand-green-light-02'} style="max-height: 80%">
                 <div className={styles['services-container']}>
                     <h2>Tratamentos Especializados</h2>
                     <ServicesCarousel services={servicesData} />
