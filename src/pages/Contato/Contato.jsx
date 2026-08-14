@@ -39,15 +39,15 @@ function Contato() {
                     <h2>Horário de Atendimento</h2>
                     <div className={styles['schedule-info']}>
                         <div className={styles['schedule-card']}>
-                            <h3>Segunda a Sexta</h3>
+                            <h3>Terça a Sexta</h3>
                             <p>08:00 - 18:00</p>
                         </div>
                         <div className={styles['schedule-card']}>
                             <h3>Sábado</h3>
-                            <p>08:00 - 14:00</p>
+                            <p>08:00 - 17:00</p>
                         </div>
                         <div className={styles['schedule-card']}>
-                            <h3>Domingo</h3>
+                            <h3>Domingo e Segunda</h3>
                             <p>Fechado</p>
                         </div>
                     </div>
